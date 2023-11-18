@@ -19,7 +19,7 @@ VK Post Analytics is a web application that allows users to analyze the engageme
 - `Node.js` and `npm` installed (for both frontend and backend).
   - Visit the official [Node.js website](https://nodejs.org/) and follow the instructions to download and install `Node.js`. `npm` is included with `Node.js`.
 - VK API credentials:
-  - Visit the [VK Developer portal](https://vk.com/dev) and create a new standalone application. Note down the _App ID_ and _App Secret_.
+  - Visit the [VK Developer portal](https://dev.vk.com/ru) and create a new standalone application. Note down the _App ID_ and _App Secret_ (security key).
   - Create a `.env` file in the `server` directory with your **VK API** credentials:
     ```
     VK_APP_ID=your-app-id
